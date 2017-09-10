@@ -122,6 +122,7 @@ story = []
 
 
 flash_text = [
+                ['Rules to Answer','Accurate answer supported by evidence, and reasoning links answer and evidence.<br/>Response is specific and detailed.<br/>Presence of precise wording and scientific terminology.' ],
                 ['Plants evolved from green algae', 'Name the green algae which are the closest relatives of plants.<br/> Why do researchers identify this algae as closest relative?'],
                 ['Life on Land', 'Identify four derived traits that distinguish plants from charophyte green algae <i>and</i> facilitate life on land. Explain'],
                 ['Alternation of Generation of Plants', "Retrieve from Memory"],
@@ -129,7 +130,7 @@ flash_text = [
                 ['Mosses and other nonvascular plants', 'Free recall life cycle of a moss'],
                 ['Non vascular plants', 'Contrast between sporophyte of vascular and nonvascular plants'],
                 ['Non Vascular plants', 'What is the function of rhizoids in bryophyte gametophytes? <br/> Contrast between rhizoids of bryophyte and roots of vascular plants'],
-                ['Non vascular plants', 'Why bryophyte gametophytes generally form ground-hugging carptes?'],
+                ['Non vascular plants', 'Why bryophyte gametophytes generally form ground-hugging carpets?'],
                 ['Bryophyte Sporophytes', 'Elaborate and Retrieve <br/>What is peristome?'],
                 ['The Ecological and Economic Importance of Mosses', 'Elaborate and Retrieve'],
                 ['Seedless Vascular Plants', 'Free recall'],
