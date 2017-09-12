@@ -14,7 +14,7 @@ pdfmetrics.registerFont(TTFont('GaramondIt', 'fonts/GaramondNo8-Italic.ttf'))
 pdfmetrics.registerFont(TTFont('GaramondBI', 'fonts/GaramondNo8-Bold-Italic.ttf'))
 pdfmetrics.registerFont(TTFont('Univers', 'fonts/Univers CE 55 Medium.ttf'))
 pdfmetrics.registerFont(TTFont('UniversL', 'fonts/Univers CE 45 Light.ttf'))
-pdfmetrics.registerFont(TTFont('UniversLbomikhal bridge odishaO', 'fonts/UniversCE-LightOblique.ttf'))
+pdfmetrics.registerFont(TTFont('UniversLO', 'fonts/UniversCE-LightOblique.ttf'))
 pdfmetrics.registerFont(TTFont('UniversBd', 'fonts/Univers CE 65 Bold.ttf'))
 pdfmetrics.registerFont(TTFont('UniversIt', 'fonts/Univers CE 55 Oblique.ttf'))
 pdfmetrics.registerFont(TTFont('UniversBI', 'fonts/UniversCE-BoldOblique.ttf'))
@@ -122,7 +122,9 @@ story = []
 
 
 flash_text = [
-                ['Rules to Answer','Accurate answer supported by evidence, and reasoning links answer and evidence.<br/>Response is specific and detailed.<br/>Presence of precise wording and scientific terminology.' ],
+                ['Rules to Answer', 'Accurate answer supported by evidence, and reasoning links answer and evidence.<br/>Response is specific and detailed.<br/>Presence of precise wording and scientific terminology.' ],
+                ['Rules to Answer', 'Refer content if unable to recall after 15-30sec of trying, then again retrieve from memory without help.'],
+                ['Rules to Answer', 'You can use local language to explain, but without forgetting main keywords and scientific terminology in English.'],
                 ['Plants evolved from green algae', 'Name the green algae which are the closest relatives of plants.<br/> Why do researchers identify this algae as closest relative?'],
                 ['Life on Land', 'Identify four derived traits that distinguish plants from charophyte green algae <i>and</i> facilitate life on land. Explain'],
                 ['Alternation of Generation of Plants', "Retrieve from Memory"],
@@ -139,7 +141,8 @@ flash_text = [
                 ['Compare and contrast homosporous and heterosporous spore production'],
                 ['Evolution of Leaves', 'Elaborate and Retrieve'],
                 ['Monilophytes and Lycophytes', 'List the key derived traits found in monilophytes and seed plants, but not in lycophytes'],
-            ]
+
+                ]
 
 flash_number = len(flash_text)
 print(flash_number)
