@@ -122,27 +122,34 @@ story = []
 
 
 flash_text = [
-                ['Rules to Answer', 'Accurate answer supported by evidence, and reasoning links answer and evidence.<br/>Response is specific and detailed.<br/>Presence of precise wording and scientific terminology.' ],
+                ['Rules to Answer', 'Accurate answer supported by evidence, and reasoning links answer and evidence.<br/>Response is specific and detailed.<br/>Presence of keywords and scientific terminology.' ],
                 ['Rules to Answer', 'Refer content if unable to recall after 15-30sec of trying, then again retrieve from memory without help.'],
-                ['Rules to Answer', 'You can use local language to explain, but without forgetting main keywords and scientific terminology in English.'],
-                ['Plants evolved from green algae', 'Name the green algae which are the closest relatives of plants.<br/> Why do researchers identify this algae as closest relative?'],
-                ['Life on Land', 'Identify four derived traits that distinguish plants from charophyte green algae <i>and</i> facilitate life on land. Explain'],
-                ['Alternation of Generation of Plants', "Retrieve from Memory"],
-                ['Alternation of Generation of Plants', 'What would the human life cycle be like if we had alternation of generations?'],
-                ['Mosses and other nonvascular plants', 'Free recall life cycle of a moss'],
-                ['Non vascular plants', 'Contrast between sporophyte of vascular and nonvascular plants'],
-                ['Non Vascular plants', 'What is the function of rhizoids in bryophyte gametophytes? <br/> Contrast between rhizoids of bryophyte and roots of vascular plants'],
-                ['Non vascular plants', 'Why bryophyte gametophytes generally form ground-hugging carpets?'],
-                ['Bryophyte Sporophytes', 'Elaborate and Retrieve <br/>What is peristome?'],
-                ['The Ecological and Economic Importance of Mosses', 'Elaborate and Retrieve'],
-                ['Seedless Vascular Plants', 'Free recall'],
-                ['Elaborate and Retrieve life cycle of a fern'],
-                ['Seedless Vascular Plants', 'Elaborate and Retrieve about Vascular system'],
-                ['Compare and contrast homosporous and heterosporous spore production'],
-                ['Evolution of Leaves', 'Elaborate and Retrieve'],
-                ['Monilophytes and Lycophytes', 'List the key derived traits found in monilophytes and seed plants, but not in lycophytes'],
+                ['Elaborate: Omnis cellula e cellula','Who summarized this concept? <br/> What is its meaning?' ],
+                ['Elaborate: Genome', "How prokaryotic genome differ from eukaryotic genomes? <br/>Number, length of DNA<br/>What is replication? How it's important? "],
+                ['Chromosomes', 'Elaborate it. <br/> Why is it so named? <br/> Importance of packaging of DNA.'],
+                ['Chromatin', "Elaborate it. <br/>Function of associated proteins"],
+                ['Chromatin and Chromosome', 'Contrast'],
+                ['Cell cycle', 'Elaborate <br/>Defination <br/> Function'],
+                ['Somatic cell and Reproductive Cell', 'Contrast'],
+                ['Sister Chromatids', 'Elaborate<br/> Centromere <br/> Arm'],
+                ['',"A chicken has 78 chromosomes in its somatic cells. How many chromosomes did the chicken inherit from each parent? How many chromosomes are in each of the chicken’s gametes?"],
+                ['Compare and contrast','Mitosis <br/>Cytokinesis <br/> Cell Cycle <br/> Mitotic(M) phase'],
+                ['Shortest and Longest Phase of Cell Cycle',''],
+                ['Interphase', 'Elaborate <br/> Three phases <br/> Why G phase was misnamed as "gaps"?'],
+                ['S phase', 'Elaborate'],
+                ['Five Stages of Mitosis', ''],
+                ['Mitotic Spindle',''],
+                ['Centrosome',''],
+                ['G2 of Interphase','Draw and Elaborate'],
+                ['Prophase', 'Draw and Elaborate'],
+                ['Prometaphase','Draw and Elaborate'],
+                ['Metaphase', 'Draw and Elaborate'],
+                ['Anaphase', 'Draw and Elaborate'],
+                ['Telophase', 'Draw and Elaborate'],
+                ['Cytokinesis', 'Draw and Elaborate'],
 
-                ]
+
+                    ]
 
 flash_number = len(flash_text)
 print(flash_number)
