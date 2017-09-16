@@ -1,9 +1,9 @@
 # flashcard
 Generate flash cards
 
-**Requirements**
-python3
-reportlab
+**Requirements**  
+python3  
+reportlab  
 
 Fill the fields (*title* and *content*) of **questions.csv** using **LibreOffice Calc** or **MS Excel** 
 
