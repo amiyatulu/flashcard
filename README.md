@@ -7,7 +7,7 @@ reportlab
 
 Fill the fields (*title* and *content*) of **questions.csv** using **LibreOffice Calc** or **MS Excel** 
 
-You can use **<br/>** for line breaks
+You can use **&lt;br\&gt;** for line breaks
 
 Use **question_to_json.py** to generate **card.json** from **questions.csv**
 
