@@ -7,6 +7,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase.pdfmetrics import registerFontFamily
 from reportlab.lib.styles import ParagraphStyle
 from math import ceil
+import json
 
 pdfmetrics.registerFont(TTFont('Garamond', 'fonts/GaramondNo8-Regular.ttf'))
 pdfmetrics.registerFont(TTFont('GaramondBd', 'fonts/GaramondNo8-Bold.ttf'))
@@ -109,7 +110,7 @@ class FlashCard(Flowable):
         # self.canv.circle(self.x, self.y, 4, stroke=1, fill=0)
 
 
-doc = BaseDocTemplate('mydoc.pdf', showBoundary=1)
+doc = BaseDocTemplate('Retreival_Practice.pdf', showBoundary=1)
 print(doc.leftMargin, doc.bottomMargin, doc.width, doc.height)
 f = Frame(0, 0, doc.width + doc.rightMargin + doc.leftMargin, doc.height + doc.topMargin + doc.bottomMargin, id="frame1")
 PT = PageTemplate(id='firstpage', frames=[f])
@@ -120,36 +121,8 @@ cardheight = (doc.height + doc.topMargin + doc.bottomMargin)/8-16
 
 story = []
 
-
-flash_text = [
-                ['Rules to Answer', 'Accurate answer supported by evidence, and reasoning links answer and evidence.<br/>Response is specific and detailed.<br/>Presence of keywords and scientific terminology.' ],
-                ['Rules to Answer', 'Refer content if unable to recall after 15-30sec of trying, then again retrieve from memory without help.'],
-                ['Elaborate: Omnis cellula e cellula','Who summarized this concept? <br/> What is its meaning?' ],
-                ['Elaborate: Genome', "How prokaryotic genome differ from eukaryotic genomes? <br/>Number, length of DNA<br/>What is replication? How it's important? "],
-                ['Chromosomes', 'Elaborate it. <br/> Why is it so named? <br/> Importance of packaging of DNA.'],
-                ['Chromatin', "Elaborate it. <br/>Function of associated proteins"],
-                ['Chromatin and Chromosome', 'Contrast'],
-                ['Cell cycle', 'Elaborate <br/>Defination <br/> Function'],
-                ['Somatic cell and Reproductive Cell', 'Contrast'],
-                ['Sister Chromatids', 'Elaborate<br/> Centromere <br/> Arm'],
-                ['',"A chicken has 78 chromosomes in its somatic cells. How many chromosomes did the chicken inherit from each parent? How many chromosomes are in each of the chicken’s gametes?"],
-                ['Compare and contrast','Mitosis <br/>Cytokinesis <br/> Cell Cycle <br/> Mitotic(M) phase'],
-                ['Shortest and Longest Phase of Cell Cycle',''],
-                ['Interphase', 'Elaborate <br/> Three phases <br/> Why G phase was misnamed as "gaps"?'],
-                ['S phase', 'Elaborate'],
-                ['Five Stages of Mitosis', ''],
-                ['Mitotic Spindle',''],
-                ['Centrosome',''],
-                ['G2 of Interphase','Draw and Elaborate'],
-                ['Prophase', 'Draw and Elaborate'],
-                ['Prometaphase','Draw and Elaborate'],
-                ['Metaphase', 'Draw and Elaborate'],
-                ['Anaphase', 'Draw and Elaborate'],
-                ['Telophase', 'Draw and Elaborate'],
-                ['Cytokinesis', 'Draw and Elaborate'],
-
-
-                    ]
+with open('data/card.json') as data_file:
+    flash_text = json.load(data_file)
 
 flash_number = len(flash_text)
 print(flash_number)
