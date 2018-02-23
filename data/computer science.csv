@@ -2,7 +2,7 @@
 "Rules to Answer","Accurate answer supported by evidence, and reasoning links answer and evidence.<br/>Response is specific and detailed.<br/>Presence of keywords and scientific terminology."
 "Rules to Answer","Refer content if unable to recall after 15-30sec of trying, then again retrieve from memory without help."
 "<font color=""blue"">Recurrence</font>", "Main idea"
-"Recurrence", "A recurrence relation is an equation that recursively defines a sequence or multidimensional array of values"
+"Recurrence", "An equation that recursively defines a sequence once one or more initial terms are given: each further term of the sequence or array is defined as a function of the preceding terms."
 "<font color=""blue"">Recursion vs Recurrence</font>", "Explain"
 "Recursion vs Recurrence","A recurrence relation uses recursion to create a sequence. Recursion is not limited to generation of sequences."
 "Recursion", "Recursion is the repeated use of a procedure or action"
