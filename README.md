@@ -13,7 +13,7 @@ Use **question_to_json.py** to generate **card.json** from **questions.csv**
 
 **Command:**
 
-python3 question_to_json.py
+python3 question_to_json.py -f "path/to/file/questions.csv"
 
 
 Then generate flashcard pdf using **flash.py**
