@@ -110,7 +110,7 @@ class FlashCard(Flowable):
         # self.canv.circle(self.x, self.y, 4, stroke=1, fill=0)
 
 
-doc = BaseDocTemplate('Retreival_Practice.pdf', showBoundary=1)
+doc = BaseDocTemplate('Retrieval_Practice.pdf', showBoundary=1)
 print(doc.leftMargin, doc.bottomMargin, doc.width, doc.height)
 f = Frame(0, 0, doc.width + doc.rightMargin + doc.leftMargin, doc.height + doc.topMargin + doc.bottomMargin, id="frame1")
 PT = PageTemplate(id='firstpage', frames=[f])
