@@ -1,10 +1,10 @@
 "title","content"
-"Rules to Answer","Accurate answer supported by evidence, and reasoning links answer and evidence.<br/>Response is specific and detailed.<br/>Presence of keywords and scientific terminology."
+"Rules to Answer","Answer supported by evidence, and reasoning links answer and evidence.<br/>Response is specific and detailed.<br/>Presence of keywords and scientific terminology."
 "Rules to Answer","Refer content if unable to recall after 15-30sec of trying, then again retrieve from memory without help."
 "One Mole","Elaborate"
 "One Mole atom in gram","Elaborate"
 "Mole Fraction","Elaborate and give the formula"
-"Henry’s Law","Elaborate with formula"
+"Henry’s Law","Elaborate with giving two formula <br/> What are the units of Henry constant in the two formula?"
 "Elaborate, Compare and Contrast","Molarity and Molality <br/> Write down the formula."
 "Factors affecting solubility of gases","Elaborate and state how these factors affect the solubility of gases?"
 "Parts by Mass and Parts by Volume","Give the Formula"
@@ -27,3 +27,8 @@
 "Colligative Property of Strong Electrolyte Solutions","Formulate each colligative property of Strong Electrolyte Solution"
 "Isosmotic, Hyperosomotic, Hyposmotic","Elaborate with take example of RBCs"
 "Azeotropes","Elaborate"
+"Give value","1 atm = ? Pascal"
+"Atomic mass of Co",
+"Ideal gas constant (In terms of Pascal)",
+"Discuss the Strategic Plan","Percent by Mass (Density of solution and molecular weight of compounds given) to <br/> (i) molality (ii) mole fraction (iii) molarity"
+"Discuss the Strategic Plan","Mole fraction to Percent by Mass"
